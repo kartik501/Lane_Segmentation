@@ -30,10 +30,10 @@ The base U-Net model outperformed the other 2 models that we had used, and hence
 
 ## Performance Comparision:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|               | Baseline CNN  |  Deeplab V3  |    U-net     |
+| ------------- | ------------- |------------- |------------- |
+| Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+| Content Cell  | Content Cell  |Content Cell  |Content Cell  |
 
 ## Inference on Test Set:
 
