@@ -73,7 +73,7 @@ The image below shows the prediction of the final model on a sample test image.
 
 Image                                                     |  Prediction
 :-------------------------:                               |:-------------------------:
-<img src="figs/True Image.png" width="250" height="250">  |  <img src="figs/True Mask.png" width="250" height="250">
+<img src="figs/Test Image.png" width="250" height="250">  |  <img src="figs/Test UNet.png" width="250" height="250">
 
 <br/>
 
