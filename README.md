@@ -78,3 +78,6 @@ Image                                                     |  Prediction
 <br/>
 
 ## Conclusion:
+U-Net model seems to outperform other models in terms of accuracy providing an IoU of 91.89% and Dice score of 93.51% on unseen test set. Along with providing a better accuracy, U-Net also evaluates images 4 times faster than the DeepLab V3 model.
+
+However, the model does seem to overfit a bit, and adding regularization to the model might help with performance over test set.
