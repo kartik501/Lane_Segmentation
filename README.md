@@ -60,6 +60,13 @@ Baseline CNN               | DeepLab V3          | U-Net
 
 
 ## Inference on Test Set:
+The U-Net model gave a mean IOU score of 91.89% and dice score of 93.51% on the test data set.
+
+The image below shows the prediction of the final model on a sample test image.
+
+Image                                                     |  Prediction
+:-------------------------:                               |:-------------------------:
+<img src="figs/True Image.png" width="250" height="250">  |  <img src="figs/True Mask.png" width="250" height="250">
 
 
 ## Conclusion:
