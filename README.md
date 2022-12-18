@@ -41,6 +41,24 @@ IOU and Dice Scores were used to compare the accuracy of the models on the valid
 | Inference Time  | 0.011 sec       |0.089 sec        |0.022 sec        |
 
 
+
+The below images show how the models performed on a single validation image taken from the test set:
+
+True Image:
+
+
+True Mask:
+
+
+Baseline CNN Prediction:
+
+
+DeepLab V3 Prediction:
+
+
+U-Net Prediction:
+
+
 ## Inference on Test Set:
 
 
