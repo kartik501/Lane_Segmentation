@@ -46,7 +46,7 @@ The below images show how the models performed on a single validation image take
 
 True Image               |  True Mask
 :-------------------------:|:-------------------------:
-<img src="figs/IOU.png" width="200" height="250">|  ![](https://...Ocean.png)
+<img src="figs/True Image.png" width="200" height="250">|  <img src="figs/True Mask.png" width="200" height="250">
 
 True Image:
 
