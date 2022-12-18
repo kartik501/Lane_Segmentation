@@ -12,3 +12,22 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 - Intersection over Union (IoU): This metric gives the ratio of intersection area of true and predicted image to the union area true and predicted image.
 
 - Dice Score: This metric gives the ratio of two times the intersection area of true and predicted image to the sum of areas true and predicted image.
+
+## Models: 
+3 models were created in for classifying road pixels. A baseline CNN model, DeepLab V3 and UNet.
+
+- Baseline CNN: (Insert Description)
+
+- DeepLab V3: (Insert Description)
+
+- U-Net: (Insert Description)
+
+
+
+## Performance Comparision:
+
+
+## Inference on Test Set:
+
+
+## Conclusion:
