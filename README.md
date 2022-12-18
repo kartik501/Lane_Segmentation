@@ -51,7 +51,7 @@ True Image                                                |  True Mask
 
 Baseline CNN               | DeepLab V3                   | U-Net 
 :-------------------------:|:-------------------------:   |:-------------------------:
-<img src="figs/Baseline CNN Prediction.png" width="250" height="250">  |  <img src="figs/Deeplab V3 Prediction" width="250" height="250"> |  <img src="figs/U-Net Prediction" width="250" height="250">
+<img src="figs/Baseline CNN Prediction.png" width="250" height="250">  |  <img src="figs/DeepLab V3 Prediction" width="250" height="250"> |  <img src="figs/U-Net Prediction" width="250" height="250">
 
 
 True Image:
