@@ -51,22 +51,10 @@ True Image                                                |  True Mask
 
 Baseline CNN               | DeepLab V3                 
 :-------------------------:|:-------------------------:   
-<img src="figs/Baseline CNN Prediction.png" width="250" height="250">  |  <img src="figs/DeepLab V3 Prediction" width="250" height="250"> |  
+<img src="figs/Baseline CNN Prediction.png" width="250" height="250">  |  <img src="figs/DeepLab V3 Prediction" width="250" height="250">  
 
 
-True Image:
 
-
-True Mask:
-
-
-Baseline CNN Prediction:
-
-
-DeepLab V3 Prediction:
-
-
-U-Net Prediction:
 
 
 ## Inference on Test Set:
