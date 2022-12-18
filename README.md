@@ -29,6 +29,9 @@ The base U-Net model outperformed the other 2 models that we had used, and hence
 
 
 ## Performance Comparision:
+IOU and Dice Scores were used to compare the accuracy of the models. Along with those metrics the training time per epoch and the time it takes to run the model 
+
+
 
 |                 | Baseline CNN    |    Deeplab V3   |      U-Net      |
 | --------------- | --------------- | --------------- | --------------- |
