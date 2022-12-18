@@ -42,6 +42,10 @@ IOU and Dice Scores were used to compare the accuracy of the models on the valid
 
 
 
+
+
+
+
 The below images show how the models performed on a single validation image taken from the test set:
 
 True Image                                                |  True Mask
