@@ -22,15 +22,10 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 
 - Baseline CNN: A CNN architecture was used as baseline for this project. The CNN architecture contains two convolution (num_filters=64, filter_size=3, stride=2, activation=“relu”) and pooling layers (size=2) in the encoder section, and two transpose convolution and unpooling layers in the decoder section. The mean IoU score obtained on the validation set was about 61.85% and the mean dice score was about 63.32%
 
-- DeepLab V3: DeepLab V3 is a pre-trained image segmentation model trained on the ImageNet dataset. DeepLab V3 also constitutes an encoder-decoder CNN sections with 4 improvement to the model.
+- DeepLab V3: DeepLab V3 is a pre-trained image segmentation model trained on the ImageNet dataset. DeepLab V3 also constitutes an encoder-decoder CNN sections along with Spatial Separable Convolution, Spatial Pyramid Pooling and Atrous Convolution. The mean IoU score obtained on the validation set was 90.89% and the mean dice score was approx 93.00%
 
--- Depthwise Separable Convolutions: Instead of using traditional convolution layers, the DeepLabV3 architecture splits the task into depthwise convolutions and pointwise convolutions which significantly reduces the computation time required.
--- Spatial Pyramid Pooling: This layer removes the fixed input size constraint of the input images.
--- Atrous Convolutions: Atrous convolutions provide a way to apply a filter over a larger area of the given image which helps in capturing the broader contextual information.
-The mean IoU score obtained on the validation set was 90.89% and the mean dice score was approx 93.00%
-
-- U-Net: (Insert Description)
-
+- U-Net: U-net is a pre-trained image segmentation model trained on the ImageNet dataset. DeepLab V3 also constitutes an encoder-decoder CNN sections along with skip connections added between the convolution and transpose convolution layers which helps in recovering fine-grained details in the decoder section.
+The base U-Net model outperformed the other 2 models that we had used, and hence I decided to improve the model further to improve its accuracy. Adding image augmentation, model checkpoint, reducing learning rate and increasing number of epochs were some of the steps taken to boost the model accuracy. The mean IoU score obtained on the validation set was 97.30% and the mean dice score was 98.04%
 
 
 ## Performance Comparision:
