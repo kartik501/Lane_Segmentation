@@ -3,8 +3,12 @@
 ## Objective:
 The global market for self-driving cars has been on a rise with the market size projected to grow from 20.3 million units in 2021 to 62.4 million units by 2030, a CAGR on 13.3%. Among the many challenges associated with designing self-driving cars, one challenge that we are particularly interested in is designing a machine learning model that can accurately detect road lanes. In this project I have created an image segmentation model that tries to accurately identify the pixels corresponding to the road from a given dash cam image.
 
+<br/>
+
 ## Dataset:
 The dataset that I will be using in this project is the Cambridge-driving Labeled Video Database (CamVid) which is a collection of frames from videos taken from a front dash cam of cars. The dataset is labelled with 32 categories that includes buildings, trees, sidewalk, etc. but due to computational limitations I will be working with only a single class “road”. So, this project deals with a binary segmentation problem, where road pixels would be indicated by 1 and the remaining pixels in the image would be indicated by 0.
+
+<br/>
 
 ## Accuracy Metrics:
 We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice Score, both of which are metrics that quantify the degree of overlap in the true and the predicted image, where IoU is more sensitive to extreme errors.
@@ -14,7 +18,9 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 - Dice Score: This metric gives the ratio of two times the intersection area of true and predicted image to the sum of areas true and predicted image.
 
 <img src="figs/Acc_Metrics.png" width="500" height="250">    
-     
+
+<br/>
+
 ## Models: 
 3 models were created in for classifying road pixels. A baseline CNN model, DeepLab V3 and UNet.
 
@@ -25,6 +31,7 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 - **U-Net**: U-net is a pre-trained image segmentation model trained on the ImageNet dataset. U-Net also constitutes an encoder-decoder CNN sections along with skip connections added between the convolution and transpose convolution layers which helps in recovering fine-grained details in the decoder section.
 The base U-Net model outperformed the other 2 models that we had used, and hence I decided to improve the model further to improve its accuracy. Adding image augmentation, unfreezing few layers, model checkpoint, reducing learning rate and increasing number of epochs were some of the steps taken to boost the model accuracy. The mean IoU score obtained on the validation set was 97.30% and the mean dice score was 98.04%
 
+<br/>
 
 ## Performance Comparision:
 IOU and Dice Scores were used to compare the accuracy of the models on the validation set. Along with those metrics the training time per epoch and the time it takes to run the model on a single image (inference time) for all the models in Colab Pro is also summarized in the below table.
@@ -57,7 +64,7 @@ Baseline CNN               | DeepLab V3          | U-Net
 
 
 
-
+<br/>
 
 ## Inference on Test Set:
 The U-Net model gave a mean IOU score of 91.89% and dice score of 93.51% on the test data set.
@@ -68,5 +75,6 @@ Image                                                     |  Prediction
 :-------------------------:                               |:-------------------------:
 <img src="figs/True Image.png" width="250" height="250">  |  <img src="figs/True Mask.png" width="250" height="250">
 
+<br/>
 
 ## Conclusion:
