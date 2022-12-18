@@ -17,7 +17,7 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 
 <img src="figs/Dice Score.png" width="250" height="250">
 
-<img src="figs/Accuracy.png" width="250" height="250">
+<img src="figs/Acc_Metrics.png" width="500" height="250">
      
 ## Models: 
 3 models were created in for classifying road pixels. A baseline CNN model, DeepLab V3 and UNet.
