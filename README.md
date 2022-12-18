@@ -11,7 +11,7 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 
 - Intersection over Union (IoU): This metric gives the ratio of intersection area of true and predicted image to the union area true and predicted image.
 
-<img src="fig/IOU.jpg" width="500">
+<img src="fig/IOU.png" width="500">
 
 - Dice Score: This metric gives the ratio of two times the intersection area of true and predicted image to the sum of areas true and predicted image.
 
