@@ -62,7 +62,7 @@ Baseline CNN Prediction      | DeepLab V3 Prediction      | U-Net Prediction
 :-------------------------:|:-------------------------:   |:-------------------------:   
 <img src="figs/Baseline CNN Prediction.png" width="250" height="250">  |  <img src="figs/DeepLab.png" width="250" height="250">|  <img src="figs/UNet.png" width="250" height="250">
 
-
+Based on the above results, it seems U-Net outperforms other models.
 
 <br/>
 
