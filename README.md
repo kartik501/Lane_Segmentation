@@ -34,11 +34,11 @@ IOU and Dice Scores were used to compare the accuracy of the models. Along with 
 
 
 |                 | Baseline CNN    |    Deeplab V3   |      U-Net      |
-| --------------- |:---------------:| --------------- | --------------- |
-| IOU Score       |       61.85%    |Content Cell     |Content Cell     |
-| Dice Score      | 63.32%          |Content Cell     |Content Cell     |
-| Training Time   | 3.916 sec       |Content Cell     |Content Cell     |
-| Inference Time  | 0.011 sec       |Content Cell     |Content Cell     |
+|:---------------:|:---------------:|:---------------:|:---------------:|
+| IOU Score       |       61.85%    |90.84%           |97.20%           |
+| Dice Score      | 63.32%          |93.34%           |98.05%           |
+| Training Time   | 3.916 sec       |13.87 sec        |5.23 sec         |
+| Inference Time  | 0.011 sec       |0.089 sec        |0.022 sec        |
 
 
 ## Inference on Test Set:
