@@ -23,7 +23,7 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 - **DeepLab V3**: DeepLab V3 is a pre-trained image segmentation model trained on the ImageNet dataset. DeepLab V3 also constitutes an encoder-decoder CNN sections along with Spatial Separable Convolution, Spatial Pyramid Pooling and Atrous Convolution. The mean IoU score obtained on the validation set was 90.89% and the mean dice score was approx 93.00%
 
 - **U-Net**: U-net is a pre-trained image segmentation model trained on the ImageNet dataset. U-Net also constitutes an encoder-decoder CNN sections along with skip connections added between the convolution and transpose convolution layers which helps in recovering fine-grained details in the decoder section.
-The base U-Net model outperformed the other 2 models that we had used, and hence I decided to improve the model further to improve its accuracy. Adding image augmentation, model checkpoint, reducing learning rate and increasing number of epochs were some of the steps taken to boost the model accuracy. The mean IoU score obtained on the validation set was 97.30% and the mean dice score was 98.04%
+The base U-Net model outperformed the other 2 models that we had used, and hence I decided to improve the model further to improve its accuracy. Adding image augmentation, unfreezing few layers, model checkpoint, reducing learning rate and increasing number of epochs were some of the steps taken to boost the model accuracy. The mean IoU score obtained on the validation set was 97.30% and the mean dice score was 98.04%
 
 
 ## Performance Comparision:
