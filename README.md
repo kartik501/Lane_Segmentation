@@ -30,10 +30,13 @@ The base U-Net model outperformed the other 2 models that we had used, and hence
 
 ## Performance Comparision:
 
-|               | Baseline CNN  |  Deeplab V3  |    U-net     |
-| ------------- | ------------- |------------- |------------- |
-| Content Cell  | Content Cell  |Content Cell  |Content Cell  |
-| Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+|                 | Baseline CNN    |    Deeplab V3   |      U-Net      |
+| --------------- | --------------- | --------------- | --------------- |
+| IOU Score       | Content Cell    |Content Cell     |Content Cell     |
+| Dice Score      | Content Cell    |Content Cell     |Content Cell     |
+| Training Time   | Content Cell    |Content Cell     |Content Cell     |
+| Inference Time  | Content Cell    |Content Cell     |Content Cell     |
+
 
 ## Inference on Test Set:
 
