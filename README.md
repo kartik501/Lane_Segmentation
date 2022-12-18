@@ -9,6 +9,6 @@ The dataset that I will be using in this project is the Cambridge-driving Labele
 ## Accuracy Metrics:
 We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice Score, both of which are metrics that quantify the degree of overlap in the true and the predicted image, where IoU is more sensitive to extreme errors.
 
-- Intersection over Union (IoU):
+- Intersection over Union (IoU): This metric gives the ratio of intersection area of true and predicted image to the union area true and predicted image.
 
-- Dice Score:
+- Dice Score: This metric gives the ratio of two times the intersection area of true and predicted image to the sum of areas true and predicted image.
