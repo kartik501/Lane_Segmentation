@@ -44,9 +44,15 @@ IOU and Dice Scores were used to compare the accuracy of the models on the valid
 
 The below images show how the models performed on a single validation image taken from the test set:
 
-True Image               |  True Mask
+True Image                                                |  True Mask
+:-------------------------:                               |:-------------------------:
+<img src="figs/True Image.png" width="250" height="250">  |  <img src="figs/True Mask.png" width="250" height="250">
+
+
+Baseline CNN             | DeepLab V3  | U-Net 
 :-------------------------:|:-------------------------:
 <img src="figs/True Image.png" width="250" height="250">|  <img src="figs/True Mask.png" width="250" height="250">
+
 
 True Image:
 
