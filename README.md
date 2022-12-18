@@ -20,7 +20,7 @@ We used 2 metrics to evaluate our models: Intersection over Union (IoU) and Dice
 ## Models: 
 3 models were created in for classifying road pixels. A baseline CNN model, DeepLab V3 and UNet.
 
-- Baseline CNN: A CNN architecture was used as baseline for this project. The CNN architecture contains two convolution (num_filters=64, filter_size=3, stride=2, activation=“relu”) and pooling layers (size=2) in the encoder section, and two transpose convolution and unpooling layers in the decoder section. The mean IoU score obtained on the validation set was about 61.85% and the mean dice score was about 63.32%
+- ###Baseline CNN###: A CNN architecture was used as baseline for this project. The CNN architecture contains two convolution (num_filters=64, filter_size=3, stride=2, activation=“relu”) and pooling layers (size=2) in the encoder section, and two transpose convolution and unpooling layers in the decoder section. The mean IoU score obtained on the validation set was about 61.85% and the mean dice score was about 63.32%
 
 - DeepLab V3: DeepLab V3 is a pre-trained image segmentation model trained on the ImageNet dataset. DeepLab V3 also constitutes an encoder-decoder CNN sections along with Spatial Separable Convolution, Spatial Pyramid Pooling and Atrous Convolution. The mean IoU score obtained on the validation set was 90.89% and the mean dice score was approx 93.00%
 
